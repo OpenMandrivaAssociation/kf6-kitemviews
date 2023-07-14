@@ -1,6 +1,6 @@
 %define libname %mklibname KF6ItemViews
 %define devname %mklibname KF6ItemViews -d
-%define git 20230706
+%define git 20230715
 
 Name: kf6-kitemviews
 Version: 5.240.0
