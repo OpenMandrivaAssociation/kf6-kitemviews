@@ -1,6 +1,6 @@
 %define libname %mklibname KF6ItemViews
 %define devname %mklibname KF6ItemViews -d
-%define git 20230927
+%define git 20231004
 
 Name: kf6-kitemviews
 Version: 5.240.0
@@ -80,7 +80,6 @@ Set of item views extending the Qt model-view framework
 %files -n %{devname}
 %{_includedir}/KF6/KItemViews
 %{_libdir}/cmake/KF6ItemViews
-%{_qtdir}/mkspecs/modules/qt_KItemViews.pri
 %{_qtdir}/doc/KF6ItemViews.*
 
 %files -n %{libname}
