@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kitemviews
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kitemviews/-/archive/master/kitemviews-master.tar.bz2#/kitemviews-%{git}.tar.bz2
@@ -87,7 +87,6 @@ Set of item views extending the Qt model-view framework
 %files -n %{devname}
 %{_includedir}/KF6/KItemViews
 %{_libdir}/cmake/KF6ItemViews
-%{_qtdir}/doc/KF6ItemViews.*
 
 %files -n %{libname}
 %{_libdir}/libKF6ItemViews.so*
